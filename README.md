@@ -30,5 +30,5 @@
 ### How to run:
  * mvc install
  *  run main for MovieInfo , MovieReview , Movie
- * each of them has own port, after adding information  MovieInfo and MovieReview THEN User port Movie to get data.
+ * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
  
