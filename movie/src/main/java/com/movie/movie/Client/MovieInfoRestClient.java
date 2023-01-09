@@ -56,3 +56,14 @@ public class MovieInfoRestClient {
         }
 
 }
+
+/*                    Note:
+ 
+        If we are only interested in response body entity the using methods retrieve() 
+        and then bodyToFlux() and bodyToMono() will serve the purpose.
+
+        Else, use the method exchange() which will return the ClientResponse 
+        which has all the response elements such as status, headers and response body as well.
+
+
+ */
