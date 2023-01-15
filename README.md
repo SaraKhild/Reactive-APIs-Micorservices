@@ -28,7 +28,7 @@
     - models folder
 
 ### How to run:
- * mvc install
+ * mvn install
  *  run main for MovieInfo , MovieReview , Movie
  * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
  
