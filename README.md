@@ -11,6 +11,7 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 
 ## Architecture of the Project:
 <br>
+
   - src folder for MovieInfo
     - controllers folder
     - models folder
@@ -34,12 +35,12 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 
 ## Installation
 <br>
-  1- Add dependencies Maven pom.xml
-  2- mvn install
+  * Add dependencies Maven pom.xml
+  * mvn install
   
 ### Run the program
 <br>
- 1- fist of all run MovieInfo and add information on postman:
+ * fist of all run MovieInfo and add information on postman:
  
  
 
