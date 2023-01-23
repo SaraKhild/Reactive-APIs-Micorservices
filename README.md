@@ -11,8 +11,9 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 
 ## Architecture of the Project:
 <br>
-
-  - src folder for MovieInfo
+ ### src folder:
+ 
+  - MovieInfo
     - controllers folder
     - models folder
     - services folder
