@@ -12,7 +12,7 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 ## Architecture of the Project:
 <br>
 
- ### src folder:
+ ### 1 src folder:
  
   - MovieInfo
     - controllers folder
@@ -35,10 +35,9 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
     - handlers folder   
     - models folder
 
-## Installation
+### 2 Maven pom.xml
 <br>
-   * Add dependencies pom.xml
-   * mvn install
+
   
 ### Run the program
 <br>
@@ -47,7 +46,7 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
  
  
  
-
+---
   
  , MovieReview , Movie
  * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
