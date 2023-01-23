@@ -6,11 +6,10 @@
  <br>
  
 ## Usages
-<br> 
 SpringBoot , Spring WebFlux , WebClient, JUnit5 test
+<br> 
 
 ## Architecture of the Project
-<br>
 
  ### 1-src folder
  
@@ -38,20 +37,9 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 ### 2-Maven pom.xml
 
 ### 3-Application.properties.yml
-
+<br>
   
 ### Run the program
-<br>
-  * fist of all run MovieInfo and add information on postman:
- 
- 
- 
- 
----
-  
- , MovieReview , Movie
- * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
- 
- 
-
- 
+  * 1- run MovieInfo and add information on postman
+  * 2- run MovieReview and add information on postman
+  * 3- run Movie to get information and review about movie on postman
