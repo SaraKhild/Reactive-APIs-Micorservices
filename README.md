@@ -35,12 +35,20 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 
 ## Installation
 <br>
-  * Add dependencies Maven pom.xml
-  * mvn install
+  *Add dependencies Maven pom.xml
+  *mvn install
   
 ### Run the program
 <br>
- * fist of all run MovieInfo and add information on postman:
+ *fist of all run MovieInfo and add information on postman:
+ 
+ 
+ 
+ 
+ ---
+  
+ , MovieReview , Movie
+ * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
  
  
 
