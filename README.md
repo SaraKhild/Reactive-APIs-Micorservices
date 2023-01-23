@@ -9,10 +9,10 @@
 <br> 
 SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 
-## Architecture of the Project:
+## Architecture of the Project
 <br>
 
- ### 1-src folder:
+ ### 1-src folder
  
   - MovieInfo
     - controllers folder
