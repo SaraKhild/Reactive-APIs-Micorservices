@@ -1,11 +1,22 @@
 # Movie Reactive API MicroService
 
-### Project Instructions:
- In this project I built MicroServices using the concept of Spring WebFlux where communicating with each other and how to handling requests
+<br>
 
-### Usages: SpringBoot , Spring WebFlux , WebClient, JUnit5 test
+## Overview
+ In this project I built MicroServices using the concept of Spring WebFlux where communicating with each other and how to handling requests.
+ 
+ <br>
 
-### Architecture of the Project:
+## Usages
+
+<br> 
+
+SpringBoot , Spring WebFlux , WebClient, JUnit5 test
+
+## Architecture of the Project:
+
+<br>
+
   - src folder for MovieInfo
     - controllers folder
     - models folder
@@ -20,15 +31,28 @@
     - repositories folder
     - routers folder
     
-  - src folder for MovieReview
+  - src folder for Movie
     - Client folder
     - controllers folder
     - exceptions folder
-    - handlers folder
+    - handlers folder   
     - models folder
 
-### How to run:
- * mvn install
- *  run main for MovieInfo , MovieReview , Movie
+## Installation
+
+<br>
+
+  1- Add dependencies Maven pom.xml
+  2- mvn install
+  
+### Run the program
+
+<br>
+
+ 1- fist of all run MovieInfo and add information on postman:
+ 
+ 
+ 
+ , MovieReview , Movie
  * each of them has own port, after adding information  MovieInfo and MovieReview THEN user port Movie to get data.
  
