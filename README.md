@@ -12,7 +12,7 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 ## Architecture of the Project:
 <br>
 
- ### 1 src folder:
+ ### 1-src folder:
  
   - MovieInfo
     - controllers folder
@@ -35,8 +35,9 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
     - handlers folder   
     - models folder
 
-### 2 Maven pom.xml
-<br>
+### 2-Maven pom.xml
+
+### 3-Application.properties.yml
 
   
 ### Run the program
