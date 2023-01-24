@@ -39,39 +39,39 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 ```
 <dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
   
-  <dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-test</artifactId>
-			<scope>test</scope>
+                <dependency>
+		<groupId>io.projectreactor</groupId>
+		<artifactId>reactor-test</artifactId>
+		<scope>test</scope>
 		</dependency>
   
-  <dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.20</version>
-			<scope>provided</scope>
+                <dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.20</version>
+		<scope>provided</scope>
 		</dependency>
   
-  	<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
-			<version>2.7.4</version>
+  	       <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+		<version>2.7.4</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>junit</groupId>
-					<artifactId>junit</artifactId>
-				</exclusion>
-			</exclusions>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+		<exclusions>
+			<exclusion>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			</exclusion>
+		</exclusions>
 		</dependency>
   
 		<dependency>
@@ -92,8 +92,8 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 			<version>2.7.4</version>
 		</dependency>
 	</dependencies>
- 
- ---
+ ```
+<br>
  
   - Movie pom.xml:  
 ```
@@ -147,6 +147,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+```
 
 ### 3-Application.properties.yml
 
@@ -160,9 +161,9 @@ spring:
 
 spring.datasource.username: moviedb
 spring.datasource.password: nFLhPPKOnkW1FA1e
-spring.data.mongodb.auto-index-creation: "true"     
- 
- --- 
+spring.data.mongodb.auto-index-creation: "true" 
+
+ ```
 ### Run the program
 <br>
 
