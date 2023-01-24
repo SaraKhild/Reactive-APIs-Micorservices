@@ -35,7 +35,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
     - models folder
 
 ### 2-Maven pom.xml
-    * MoiveInfo and MovieReview pom.xml:
+    - MoiveInfo and MovieReview pom.xml:
 ```
 <dependencies>
 		<dependency>
@@ -95,7 +95,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
  
  
  
-  * Movie pom.xml:  
+  - Movie pom.xml:  
 ```
   <dependencies>
 		<dependency>
@@ -149,6 +149,18 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 	</dependencies>
 
 ### 3-Application.properties.yml
+
+```
+spring:
+    data:
+       mongodb:
+         database: moviedb
+         host: localhost
+         port: 27017
+
+spring.datasource.username: moviedb
+spring.datasource.password: nFLhPPKOnkW1FA1e
+spring.data.mongodb.auto-index-creation: "true"     
   
 ### Run the program
 <br>
