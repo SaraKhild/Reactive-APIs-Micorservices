@@ -162,6 +162,8 @@ spring.datasource.username: moviedb
 spring.datasource.password: nFLhPPKOnkW1FA1e
 spring.data.mongodb.auto-index-creation: "true"     
   
+  <br>
+  
 ### Run the program
 <br>
 
