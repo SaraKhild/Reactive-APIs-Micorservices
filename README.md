@@ -35,7 +35,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
     - models folder
 
 ### 2-Maven pom.xml
-    - MoiveInfo and MovieReview pom.xml:
+    * MoiveInfo and MovieReview pom.xml:
 ```
 <dependencies>
 		<dependency>
@@ -93,9 +93,9 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 		</dependency>
 	</dependencies>
  
- <br>
  
-  - Movie pom.xml:  
+ 
+  * Movie pom.xml:  
 ```
   <dependencies>
 		<dependency>
