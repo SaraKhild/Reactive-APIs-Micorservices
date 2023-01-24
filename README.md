@@ -93,7 +93,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 		</dependency>
 	</dependencies>
  
- 
+ ---
  
   - Movie pom.xml:  
 ```
@@ -161,9 +161,8 @@ spring:
 spring.datasource.username: moviedb
 spring.datasource.password: nFLhPPKOnkW1FA1e
 spring.data.mongodb.auto-index-creation: "true"     
-  
-  <br>
-  
+ 
+ --- 
 ### Run the program
 <br>
 
