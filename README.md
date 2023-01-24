@@ -6,7 +6,7 @@
  <br>
  
 ## Usages
-SpringBoot , Spring WebFlux , WebClient, JUnit5 test
+SpringBoot , Spring WebFlux , WebClient, JUnit5 test, Mongodb
 <br> 
 
 ## Architecture of the Project
@@ -40,6 +40,9 @@ SpringBoot , Spring WebFlux , WebClient, JUnit5 test
 <br>
   
 ### Run the program
+<br>
   * 1- run MovieInfo and add information on postman
+  ![Uploading movieInfo-get.png…]()
+
   * 2- run MovieReview and add information on postman
   * 3- run Movie to get information and review about movie on postman
