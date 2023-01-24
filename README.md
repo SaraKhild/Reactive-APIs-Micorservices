@@ -2,7 +2,7 @@
 <br>
 
 ## Overview
- In this project I built MicroServices using the concept of Spring WebFlux where communicating with each other and how to handling requests.
+ In this project I built MicroServices using the concept of Spring WebFlux where communicating with each other by WebClient and handling requests.
  <br>
  
 ## Usages
