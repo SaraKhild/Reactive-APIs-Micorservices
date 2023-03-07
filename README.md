@@ -37,8 +37,7 @@ SpringBoot, Spring WebFlux, WebClient, JUnit5 test, Mongodb
 ### 2-Maven pom.xml
 
     - MoiveInfo and MovieReview pom.xml:
-      - Movie pom.xml:  
-    
+    <br>
 ```
  <dependencies>
 	<dependency>
